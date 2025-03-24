@@ -1,4 +1,4 @@
-FROM python:3.13-slim
+FROM python:3.14-rc-slim
 EXPOSE 8000
 WORKDIR /server_wanderbook
 ADD . '/server_wanderbook/'
